@@ -3,7 +3,7 @@ from huawei_lte_api.Connection import Connection
 from print_color import print
 import json
 import os, time
-login = Connection('http://admin:admin@192.168.9.1/')
+login = Connection('http://admin:admin@192.168.8.1/')
 client = Client(login)
 
 hp_owner = "085961506487"
